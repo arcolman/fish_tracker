@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.main {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.authButton {
+  margin-right: 30px;
+}
+
+.createAccButton, .logInButton {
+  margin: 2%;
+  margin-left: 0%;
+}
+
+.loggedInAs {
+  margin: 2%;
+  margin-left: 0%;
+  padding: 3%;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-wrap: normal;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  background-color: lightgrey;
+}
+
+.head {
+  width: 100%;
+  height: 10%;
+  background-color: paleturquoise;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.posts {
+  width: 100%;
+  height: 80%;
+  background-color: greenyellow;
+}
+
+.createPosts {
+  background-color: red;
+  width: 100%;
+  height: max(4rem, 10%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.addCatchButton {
+  margin-top: 0.5rem;
+}
+
+.createButton {
+  width: max(30%, 15rem);
+  height: max(50%, 2rem);
+  max-width: 50rem;
+  font-size: 1.5rem;
+}
+
+.test {
+  color: red;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+}
+
+.scroll {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  font-size: 4rem;
+}
